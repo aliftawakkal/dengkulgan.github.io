@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="frontend/assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/assets/xzoom/xzoom.css" />
+    <link rel="stylesheet" href="frontend/assets/gijgo/css/gijgo.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel=" stylesheet" href="frontend/style/main.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a href="index.html" class="navbar-brand">
+                    <img src="frontend/images/logo/logo_bikesel@2x.png" alt="">
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">
+                        | &nbsp; HIGH QUALITY BIKES FOR TRAIL RIDING
+                    </span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main -->
+    <main>
+        <section class="section-details-header"></section>
+        <section class="section-details-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-p 0">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    Paket Bikes
+                                </li>
+                                <li class="breadcrumb-item">
+                                    Details
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Checkout
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-8 pl-lg-0">
+                        <div class="card card-details">
+                            <h1>Who Wants to Go</h1>
+                            <p>Republic of Indonesia Jaya</p>
+                            <div class="attendee">
+                                <table class="table table-responsive-sm text-center">
+                                    <thead>
+                                        <tr>
+                                            <td>Picture</td>
+                                            <td>Name</td>
+                                            <td>Natisonality</td>
+                                            <td>KTP</td>
+                                            <td>Member</td>
+                                            <td></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="frontend/images/avatar/avatar1.png" height="60">
+                                            </td>
+                                            <td class="align-middle">
+                                                James
+                                            </td>
+                                            <td class="align-middle">
+                                                ID
+                                            </td>
+                                            <td class="align-middle">
+                                                N/A
+                                            </td>
+                                            <td class="align-middle">
+                                                Active
+                                            </td>
+                                            <td class="align-middle">
+                                                <img src="frontend/images/remove/Icon material-delete-forever.png"
+                                                    alt="">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="frontend/images/avatar/avatar2.png" height="60">
+                                            </td>
+                                            <td class="align-middle">
+                                                Micheal
+                                            </td>
+                                            <td class="align-middle">
+                                                US
+                                            </td>
+                                            <td class="align-middle">
+                                                30 Days
+                                            </td>
+                                            <td class="align-middle">
+                                                Active
+                                            </td>
+                                            <td class="align-middle">
+                                                <img src="frontend/images/remove/Icon material-delete-forever.png"
+                                                    alt="">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="frontend/images/avatar/avatar3.png" height="60">
+                                            </td>
+                                            <td class="align-middle">
+                                                Richard
+                                            </td>
+                                            <td class="align-middle">
+                                                UK
+                                            </td>
+                                            <td class="align-middle">
+                                                30 days
+                                            </td>
+                                            <td class="align-middle">
+                                                Active
+                                            </td>
+                                            <td class="align-middle">
+                                                <img src="frontend/images/remove/Icon material-delete-forever.png"
+                                                    alt="">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="member mt-3">
+                                <h2>Add Member</h2>
+                                <form class="form-inline">
+                                    <label for="inputUsername" class="sr-only">Name</label>
+                                    <input type="text" name="inputUsername" class="form-control mb-2 mr-sm-2"
+                                        id="inputUsername" placeholder="Username" />
+                                    <label for="inputKTP" class="sr-only">KTP</label>
+                                    <select name="inputKTP" id="inputKTP" class="custom-select mb-2 mr-sm-2">
+                                        <option value="KTP" selected>KTP</option>
+                                        <option value="30 days">30 Days</option>
+                                        <option value="N/A">N/A</option>
+                                    </select>
+
+                                    <label for="adventure" class="sr-only">Adventure</label>
+                                    <div class="input-group mb-2 mr-sm-2">
+                                        <input type="text" class="form-control datepicker" id="adventure"
+                                            placeholder="Adventure">
+                                    </div>
+                                    <button type="submit" class="btn btn-add-now mb-2 px-4">
+                                        Add Now
+                                    </button>
+                                </form>
+                                <h3 class="mt-2 mb-0">Note</h3>
+                                <p class="disclaimer mb-0">
+                                    Anda hanya dapat mengundang anggota yang telah terdaftar Member Bikes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-details card-right">
+                            <h2>Informasi Perjalanan</h2>
+                            <table class="informasi-perjalanan">
+                                <tr>
+                                    <th width="50%">Member</th>
+                                    <td width="50%" class="text-right">
+                                        2 Member
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Instruksi</th>
+                                    <td width="50%" class="text-right">
+                                        $ 200,00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Rental BIKE</th>
+                                    <td width="50%" class="text-right">
+                                        $300,00 / Member
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Sub Total</th>
+                                    <td width="50%" class="text-right">
+                                        $500,00
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Total (+Member)</th>
+                                    <td width="50%" class="text-right text-total">
+                                        <span class="text-blue">$ 499,</span><span class="text-orange">33</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <hr />
+
+                            <h2>Intruksi Pembayaran</h2>
+                            <p class="instruksi-pembayaran">Silahkan lengkapi pembayaran sebelum anda melanjutkan
+                                perjalanan yang luar biasa</p>
+                            <div class="bank">
+                                <div class="bank-item pb-3">
+                                    <img src="frontend/images/avatar/bank1.png" alt="" class="bank-image">
+                                    <div class="description">
+                                        <h3>PT Mega Surya</h3>
+                                        <p>
+                                            Bank BR
+                                            <br>
+                                            0815 4519 8365
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="bank-item pb-3">
+                                    <img src="frontend/images/avatar/bank2.png" alt="" class="bank-image">
+                                    <div class="description">
+                                        <h3>PT Surya Pertama</h3>
+                                        <p>
+                                            Bank kalsel
+                                            <br>
+                                            0852 5252 7598
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="join-container">
+                            <a href="success.html" class="btn btn-block btn-join-now mt-3 py-2">
+                                join Member Payment
+                            </a>
+                        </div>
+                        <div class="text-center mt-3">
+                            <a href="details.html" class="text-muted">
+                                Cancel Member
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row-justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>FEATURES</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Social Media Kit</a></li>
+                                <li><a href="#">Affillate</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h5>ACCOUNT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Refund</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Reward</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h5>COMPANY</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Banjarmasin Kota</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">0815 - 4519 - 8365</a></li>
+                                <li><a href="#">MediaSountor@gmail.com</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row bordered-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2020 Copyright SOUNTOR. All right reserved . Made In Banjarmasin
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="frontend/assets/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/assets/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/assets/retina/retina.min.js"></script>
+    <script src="frontend/assets/xzoom/xzoom.min.js"></script>
+    <script src="frontend/assets/gijgo/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 450,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="frontend/images/avatar/material-date-range.png" />'
+                }
+            })
+        });
+    </script>
+
+</body>
+
+</html>

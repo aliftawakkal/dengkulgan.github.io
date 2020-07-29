@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="frontend/assets/bootstrap/css/bootstrap.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel=" stylesheet" href="frontend/style/main.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/logo/logo_bikesel@2x.png" alt="Logo BIKESEL">
+            </a>
+            <button class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navb">
+                <span class="navbar-toogler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Paket Bikes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown"> Services
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Mobile Botton -->
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Masuk
+                    </button>
+                </form>
+
+                <!-- Desktop Botton -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <header class="text-center">
+        <h1>
+            Quick and Easy
+            <br />
+            Online Bike Rental
+        </h1>
+        <a href="#" class="btn btn-get-rent px-4 mt-4">
+            RENT YOUR BIKE
+        </a>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <section class="section-stats row justify-content-center" id="stats">
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>200</h2>
+                    <p>RIDERS BOOKED</p>
+                </div>
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>65</h2>
+                    <p>BIKES</p>
+                </div>
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>1000</h2>
+                    <p>KM DRIVEN</p>
+                </div>
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>4</h2>
+                    <p>SELECTION BIKES</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="section-popular" id="popular">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center section-popular-heading">
+                        <h2>Choose Your Bike Popular</h2>
+                        <p>
+                            own the Experience
+                            <br />
+                            Explore the World
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-popular-content" id="popularContent">
+            <div class="container">
+                <div class="section-popular-bike row justify-content-center">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-bike text-center d-flex flex-column"
+                            style="background-image: url('frontend/images/populer/popular_urban.jpg');">
+                            <div class="bike-country">URBAN</div>
+                            <div class="bike-buttom mt-auto">
+                                <a href="details.html" class="btn btn-bike-details">
+                                    RENT YOUR BIKE
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-bike text-center d-flex flex-column"
+                            style="background-image: url('frontend/images/populer/popular_janior.jpg');">
+                            <div class="bike-country">JUNIOR</div>
+                            <div class="bike-buttom mt-auto">
+                                <a href="details.html" class="btn btn-bike-details">
+                                    RENT YOUR BIKE
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-bike text-center d-flex flex-column"
+                            style="background-image: url('frontend/images/populer/popular_roadbike.jpg');">
+                            <div class="bike-country">ROAD BIKE</div>
+                            <div class="bike-buttom mt-auto">
+                                <a href="details.html" class="btn btn-bike-details">
+                                    RENT YOUR BIKE
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-bike text-center d-flex flex-column"
+                            style="background-image: url('frontend/images/populer/popular_mountain.jpg');">
+                            <div class="bike-country">MOUNTAIN</div>
+                            <div class="bike-buttom mt-auto">
+                                <a href="details.html" class="btn btn-bike-details">
+                                    RENT YOUR BIKE
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-networks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>BIKESEL</h2>
+                        <p>
+                            Join Corppertion
+                        </p>
+                    </div>
+                    <div class="col-md-8 text-center">
+                        <img src="frontend/images/partner/farther.png" alt="Logo partner" class="img-parther" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-testimonial-heading" id="testimonialHeading">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2>Mencari Inspirasi</h2>
+                        <p>
+                            Let us help you find
+                            <br />
+                            the perfect destination
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-testimonial-content" id="testimonialContent">
+            <div class="container">
+                <div class="section-popular-bike row justify-content-center">
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card card-testimonial text-center">
+                            <div class="testimonial-content">
+                                <img src="frontend/images/testimonial/nona/user_pic.png" alt="User"
+                                    class="mb-4 rounded-circle" />
+                                <h3 class="mb-4">Nona HT</h3>
+                                <p class="testimonial">
+                                    " Cukup Mudah dan nyaman untuk mendapat sepeda "
+                                </p>
+                            </div>
+                            <hr>
+                            <p class="trip-to mt-2">
+                                To Gowes Explore
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card card-testimonial text-center">
+                            <div class="testimonial-content">
+                                <img src="frontend/images/testimonial/nora/user_pic.png" alt="User"
+                                    class="mb-4 rounded-circle" />
+                                <h3 class="mb-4">Nora Patahe</h3>
+                                <p class="testimonial">
+                                    " Biar dia bersepeda dengan tenang sama pasangan hidup dia "
+                                </p>
+                            </div>
+                            <hr>
+                            <p class="trip-to mt-2">
+                                To Gowes Explore Bromo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="card card-testimonial text-center">
+                            <div class="testimonial-content">
+                                <img src="frontend/images/testimonial/sayiidaa/user_pic.png" alt="User"
+                                    class="mb-4 rounded-circle" />
+                                <h3 class="mb-4">Sayyidassada</h3>
+                                <p class="testimonial">
+                                    " Musim Bersepada di tahun dimana orang - orang dikota mau pun di desa suka
+                                    bersepeda "
+                                </p>
+                            </div>
+                            <hr>
+                            <p class="trip-to mt-2">
+                                To Gowes Explore Batu Mandi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a href="#" class="btn btn-rent-bike px-4 mt-4 mx-1">
+                            RENT BIKE
+                        </a>
+                        <a href="#" class="btn btn-get-sent-bike px-4 mt-4 mx-1">
+                            GET SENT BIKE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row-justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>FEATURES</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Social Media Kit</a></li>
+                                <li><a href="#">Affillate</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h5>ACCOUNT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Refund</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Reward</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h5>COMPANY</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Banjarmasin Kota</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">0815 - 4519 - 8365</a></li>
+                                <li><a href="#">MediaSountor@gmail.com</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row bordered-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2020 Copyright SOUNTOR. All right reserved . Made In Banjarmasin
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="frontend/assets/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/assets/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/assets/retina/retina.min.js"></script>
+
+</body>
+
+</html>

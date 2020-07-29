@@ -1,0 +1,489 @@
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+  color: #121924;
+}
+
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #121924;
+
+      &.active {
+        font-weight: bold;
+        color: #121212 !important;
+      }
+    }
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #6D695A;
+  color: #ffffff;
+
+  &:hover {
+    background-color: rgb(156, 153, 141);
+    color: #ffffff;
+  }
+}
+
+// Header
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url(../images/header/header.jpg);
+  background-size: cover;
+
+  h1 {
+    color: #121924;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 45px;
+  }
+
+  .btn-get-rent {
+    background-color: #A36334;
+    color: #fff;
+
+    &:hover {
+      background-color: rgb(194, 134, 91);
+      color: #fff;
+    }
+  }
+}
+
+// STATISTIC
+.section-stats {
+  margin-top: -50px;
+
+  .stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: lighter;
+  }
+}
+
+// Popular 
+.section-popular {
+  min-height: 550px;
+  background-color: #D9D8D1;
+  margin-top: -50px;
+  margin-bottom: -200px;
+
+  .section-popular-heading {
+    margin-top: 150px;
+
+    h2,
+    p {
+      color: #121924;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+// section popular content
+.section-popular-content {
+  .section-popular-bike {
+    .card-bike {
+      min-height: 380px;
+      background-color: #dddddd;
+      color: #fff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .bike-country {
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    .bike-buttom {
+      .btn-bike-details {
+        background-color: #A36334;
+        color: #ffffff;
+
+        &:hover {
+          background-color: rgb(209, 156, 118);
+          color: #ffffff;
+        }
+      }
+    }
+
+  }
+}
+
+.section-networks {
+  background-color: #ffffff;
+  margin-top: -170px;
+  padding-top: 190px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(#D9D8D1 0%, #e0e1e4 100%);
+  padding-top: 50px;
+  min-height: 506px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+
+    .testimonial-content {
+      min-height: 380px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    .testimonial {
+      font-family: Assistant;
+      font-weight: normal;
+      font-size: 26px;
+      text-align: center;
+      color: #999e9f;
+      min-height: 150px;
+    }
+
+    .trip-to {
+      font-weight: normal;
+      font-size: 22px;
+      color: #999e9f;
+    }
+
+    hr {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+
+  .btn-rent-bike {
+    background-color: #f2f2f2;
+    color: #c3c3c3;
+
+    &:hover {
+      background-color: #fafafa;
+      color: #a79c9c;
+    }
+  }
+
+  .btn-get-sent-bike {
+    background-color: #A36334;
+    color: #fff;
+
+    &:hover {
+      background-color: rgb(194, 134, 91);
+      color: #fff;
+    }
+  }
+}
+
+.section-footer {
+  a {
+    color: #121924;
+  }
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #D9D8D1;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #121924;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #b1b1b1;
+    }
+
+    h3 {
+      font-weight: 300;
+      font-size: 14px;
+      color: #121924;
+    }
+
+    .informasi-perjalanan {
+      th {
+        font-weight: 300;
+        font-size: 18px;
+        color: #121924;
+      }
+
+      td {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+
+      .text-blue {
+        color: #071c4d;
+        font-weight: bold;
+      }
+
+      .text-orange {
+        color: #ff9e53;
+        font-weight: bold;
+      }
+    }
+
+    .instruksi-pembayaran {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .bank {
+      .bank-item {
+        h3 {
+          font-size: 18px;
+          color: #121924;
+          margin-bottom: 0;
+        }
+
+        p {
+          margin-bottom: 0;
+        }
+
+        .description {
+          margin-left: 10px;
+          overflow: hidden;
+          float: left;
+
+          p {
+            font-weight: normal;
+            font-size: 16px;
+            color: #121924;
+          }
+        }
+      }
+
+      .bank-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .gj-datepicker {
+      .datepicker {
+        border-right: 0;
+      }
+
+      .input-group-append {
+        .btn {
+          padding-right: 30px;
+        }
+      }
+    }
+
+    .btn-add-now {
+      background-color: #6D695A;
+      color: #fff;
+
+      &:hover {
+        background-color: rgb(173, 169, 151);
+        color: #fff;
+      }
+    }
+
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #071c4d;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
+
+      .xactive {
+        border: 4px solid rgb(214, 209, 209);
+        box-shadow: none;
+      }
+    }
+  }
+
+  .member {
+    .member-image {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .join-container {
+    margin-top: -16px;
+  }
+
+  .btn-join-now {
+    background-color: #A36334;
+    color: #fff;
+    border-radius: 0;
+
+    &:hover {
+      background-color: rgb(195, 134, 90);
+      color: #fff;
+    }
+  }
+}
+
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #121212;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #A36334;
+    color: #fff;
+
+    &:hover {
+      background-color: rgb(209, 146, 102);
+      color: #fff;
+
+    }
+  }
+}
